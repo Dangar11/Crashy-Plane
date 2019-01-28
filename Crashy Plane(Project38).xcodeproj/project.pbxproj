@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		DDE321DD214AB2390052EB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE321DC214AB2390052EB33 /* AppDelegate.swift */; };
 		DDE321DF214AB2390052EB33 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDE321DE214AB2390052EB33 /* GameScene.sks */; };
-		DDE321E1214AB2390052EB33 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDE321E0214AB2390052EB33 /* Actions.sks */; };
 		DDE321E3214AB2390052EB33 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE321E2214AB2390052EB33 /* GameScene.swift */; };
 		DDE321E5214AB2390052EB33 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE321E4214AB2390052EB33 /* GameViewController.swift */; };
 		DDE321E8214AB2390052EB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE321E6214AB2390052EB33 /* Main.storyboard */; };
 		DDE321EA214AB23A0052EB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE321E9214AB23A0052EB33 /* Assets.xcassets */; };
 		DDE321ED214AB23A0052EB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE321EB214AB23A0052EB33 /* LaunchScreen.storyboard */; };
+		DDE321FA214AB3340052EB33 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE321F5214AB3340052EB33 /* spark.png */; };
+		DDE321FB214AB3340052EB33 /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDE321F6214AB3340052EB33 /* PlayerExplosion.sks */; };
+		DDE321FC214AB3340052EB33 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = DDE321F7214AB3340052EB33 /* coin.wav */; };
+		DDE321FD214AB3340052EB33 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = DDE321F8214AB3340052EB33 /* explosion.wav */; };
+		DDE321FE214AB3340052EB33 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DDE321F9214AB3340052EB33 /* music.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDE321D9214AB2390052EB33 /* Crashy Plane(Project38).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crashy Plane(Project38).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE321DC214AB2390052EB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE321DE214AB2390052EB33 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DDE321E0214AB2390052EB33 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		DDE321E2214AB2390052EB33 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		DDE321E4214AB2390052EB33 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DDE321E7214AB2390052EB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDE321E9214AB23A0052EB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE321EC214AB23A0052EB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDE321EE214AB23A0052EB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE321F5214AB3340052EB33 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		DDE321F6214AB3340052EB33 /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		DDE321F7214AB3340052EB33 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		DDE321F8214AB3340052EB33 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		DDE321F9214AB3340052EB33 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,9 @@
 		DDE321DB214AB2390052EB33 /* Crashy Plane(Project38) */ = {
 			isa = PBXGroup;
 			children = (
+				DDE321F4214AB31C0052EB33 /* Content */,
 				DDE321DC214AB2390052EB33 /* AppDelegate.swift */,
 				DDE321DE214AB2390052EB33 /* GameScene.sks */,
-				DDE321E0214AB2390052EB33 /* Actions.sks */,
 				DDE321E2214AB2390052EB33 /* GameScene.swift */,
 				DDE321E4214AB2390052EB33 /* GameViewController.swift */,
 				DDE321E6214AB2390052EB33 /* Main.storyboard */,
@@ -71,6 +79,18 @@
 				DDE321EE214AB23A0052EB33 /* Info.plist */,
 			);
 			path = "Crashy Plane(Project38)";
+			sourceTree = "<group>";
+		};
+		DDE321F4214AB31C0052EB33 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDE321F7214AB3340052EB33 /* coin.wav */,
+				DDE321F8214AB3340052EB33 /* explosion.wav */,
+				DDE321F9214AB3340052EB33 /* music.m4a */,
+				DDE321F6214AB3340052EB33 /* PlayerExplosion.sks */,
+				DDE321F5214AB3340052EB33 /* spark.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,11 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE321FB214AB3340052EB33 /* PlayerExplosion.sks in Resources */,
+				DDE321FC214AB3340052EB33 /* coin.wav in Resources */,
+				DDE321FE214AB3340052EB33 /* music.m4a in Resources */,
+				DDE321FD214AB3340052EB33 /* explosion.wav in Resources */,
+				DDE321FA214AB3340052EB33 /* spark.png in Resources */,
 				DDE321E8214AB2390052EB33 /* Main.storyboard in Resources */,
 				DDE321DF214AB2390052EB33 /* GameScene.sks in Resources */,
 				DDE321EA214AB23A0052EB33 /* Assets.xcassets in Resources */,
 				DDE321ED214AB23A0052EB33 /* LaunchScreen.storyboard in Resources */,
-				DDE321E1214AB2390052EB33 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tkach.igor.Crashy-Plane-Project38-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tkach.igor.Crashy-Plane-Project38-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
